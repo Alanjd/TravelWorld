@@ -1,5 +1,6 @@
 import Button from "../Button/Button";
 import Cartwiget from "../CartWiget/CartWiget";
+import Login from "../Login/Login";
 
 function NavBar() {
     return (
@@ -7,11 +8,11 @@ function NavBar() {
         <div className="App">
           <navbar className= "barra">
                 <h1>Travel world</h1>
-                <li className='submenu'>Destinos</li>
-                <li className='submenu'>Ofertas</li>
-                <li className='submenu'>Nosotros</li>
-                <Button className='btn'>Destinos</Button>
-                <Cartwiget/>
+                <Button><li href="#home">Destinos</li></Button>
+                <Button><li href="#home">Ofertas</li></Button>
+                <Button><li href="#home">Nosotros</li></Button>
+                <Button><Login/></Button>
+                <Button><Cartwiget/></Button>
           </navbar>
             
         </div>

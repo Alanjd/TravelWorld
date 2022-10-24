@@ -1,5 +1,24 @@
-.ItemListContainer{
+/*.ItemListContainer{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-}
+}*/
+
+.ItemListContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: normal;
+    align-items: normal;
+    align-content: normal;
+  }
+  
+  .item{
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+  }
+ 

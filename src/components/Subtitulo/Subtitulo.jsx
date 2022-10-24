@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import "./subtitulo.css";
 
 function Subtitulo(props) {
   return (

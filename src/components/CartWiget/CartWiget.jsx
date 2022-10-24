@@ -9,9 +9,9 @@ function CartdWiget() {
   console.log (iconList);
   return (
     <div>
-      <button>
+      
          <FontAwesomeIcon icon ={faShoppingCart}></FontAwesomeIcon>
-      </button>
+    
     </div>
     )
 
