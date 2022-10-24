@@ -1,4 +1,5 @@
 import Button from "../Button/Button";
+import Cartwiget from "../CartWiget/CartWiget";
 
 function NavBar() {
     return (
@@ -10,11 +11,9 @@ function NavBar() {
                 <li className='submenu'>Ofertas</li>
                 <li className='submenu'>Nosotros</li>
                 <Button className='btn'>Destinos</Button>
-                <Button className='btn'>Ofertas</Button>
+                <Cartwiget/>
           </navbar>
-            <header className="App-header">
             
-            </header>
         </div>
       </>
     );

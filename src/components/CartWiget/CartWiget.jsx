@@ -1,12 +1,20 @@
 //traido con rfce
 import React from 'react';
-import fontAwesome from "@fortawesome/react-fontawesome";
-import {faCartddwiget} 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faShoppingCart} from "@fortawesome/free-solid-svg-icons";
+import * as iconList from "@fortawesome/free-solid-svg-icons"; 
+
 
 function CartdWiget() {
+  console.log (iconList);
   return (
-    <div>CartWiget</div>
-  )
+    <div>
+      <button>
+         <FontAwesomeIcon icon ={faShoppingCart}></FontAwesomeIcon>
+      </button>
+    </div>
+    )
+
 }
 
-export default faCartddtWiget
+export default CartdWiget

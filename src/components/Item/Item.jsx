@@ -1,9 +1,17 @@
-import React from 'react'
+import Button from 'react-bootstrap/Button';
+import Card from 'react-bootstrap/Card';
 
-function Item() {
+function Item(props) {
   return (
-    <div>Item</div>
-  )
+    <Card style={{ width: '35rem' }}>
+      <Card.Img className='imgCard' variant="top" img src= {props.imgurl} alt="Producto img"/>
+      <Card.Body>
+        <Card.Title>{props.title}</Card.Title>
+        <Card.Text>${props.price}</Card.Text>
+        <Button variant="secondary">Comprar</Button>
+      </Card.Body>
+    </Card>
+  );
 }
 
-export default Item
+export default Item;
